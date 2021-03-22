@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left:-5px;
+  margin-right:-5px;
+}
+.column {
+  float: left;
+  width: 70%;
+  padding: 8px;
+}  
+.column th,td
+{
+    padding: 17px;
+}
+.column1 {
+    margin: 0px;
+  float: left;
+  width: 23%;
+  padding: 0;
+}
+.column1 th, td {
+  text-align: center;
+  padding: 4px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+
+
+.sub-bar{
+    background-color: white;
+    height: 100px;
+    width: 900px;
+    
+   }
+.class
+{
+ background-color: white;
+}
+
+.sub-bar ul
+{
+   margin: 7px;
+    padding: 3px ;
+    list-style:lower-alpha;
+    height: 70%;
+    line-height: 36px;
+    width: 48%;
+    background-color: lightblue;
+    display: inline-flex;
+    font-size: 15px;
+    list-style: none;
+    color: white;
+    
+}
+.sub-bar ul li
+{
+    float: left;
+    widows: 12px;
+    
+    
+}
+
+.sub-bar a
+{
+    display: block;
+    padding: 0 28px;
+    color:#fff;
+    text-decoration: none;
+}
+.active, .sub-bar ul li:hover
+{
+    color: white;
+    background-color: blue;
+    border-radius: 3px;
+}
+
+
+.br{
+    background-color: white;
+    height: 100%;
+    width: 10%;
+    
+   }
+.br 
+{
+  
+    padding: 3px ;
+    list-style:lower-alpha;
+    height: 30%;
+    line-height: 30px;
+    width: 10%;
+    background-color: snow;
+    display: inline-flex;
+    font-size: 15px;
+    list-style: none;
+
+    text-align: center;
+    
+}
+
+.br a
+{
+    display: block;
+    padding: 0 28px;
+   color: black;
+    text-decoration: none;
+}
+.active, .br a:hover
+{
+    
+    background-color: gainsboro;
+    border-radius: 3px;
+}
+
+
+.tr{
+    background-color: white;
+    height: 100%;
+    width: 10%;
+    
+   }
+.tr 
+{
+  
+    padding: 3px ;
+    list-style:lower-alpha;
+    height: 30%;
+    line-height: 30px;
+    width: 10%;
+background-color:snow;
+    display: inline-flex;
+    font-size: 15px;
+    list-style: none;
+    text-decoration-color: black;
+    text-align: center;
+    
+}
+
+.tr a
+{
+    display: block;
+    padding: 0 28px;
+   color: black;
+    text-decoration: none;
+}
+.active, .tr a:hover
+{
+   
+    background-color: gainsboro;
+    border-radius: 3px;
+}
+ 
+.front
+{
+    background-color:snow;
+}
